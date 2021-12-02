@@ -1,38 +1,60 @@
-.App {
+* {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main{
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainn{
+  background-image: url("https://www.wallpapertip.com/wmimgs/25-252076_background-image-for-weather-app.jpg");
+  padding-bottom: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.temp1{
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
   color: white;
+  text-align: center;
+  margin-top: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  /* border-radius: 150px; */
+}
+.me{
+  margin-top: 165px;
+}
+.me1{
+  margin-top: -60px;
+  margin-left: 465px;
 }
 
-.App-link {
-  color: #61dafb;
+
+body{
+  background-color: aquamarine;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
   }
-  to {
-    transform: rotate(360deg);
+  .me1{
+    margin-left: 10px;
   }
+}
+
+
+.temp{
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  /* border-radius: 5px; */
+  border: none;
+  padding: 70px;
+  border-radius: 150px;
+  
 }
